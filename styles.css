@@ -1,0 +1,272 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 1262px;
+    height: 500px;
+}
+
+.two {
+    width: 1262px;
+    height: 270px;
+    transform: translateY(-500px);
+}
+
+.three {
+    transform: translate(770px, -830px);
+    width: 170px;
+}
+
+.four {
+    width: 240px;
+    transform: translate(80px, -880px);
+}
+
+.now {
+    background-color: #58f758;
+    width: 1262px;
+    height: 20px;
+    transform: translateY(-532px);
+}
+
+
+.five {
+    width: 1262px;
+    height: 150px;
+    transform: translateY(-720px);
+}
+
+.space {
+    background-color: #313030;
+    width: 1262px;
+    height: 55px;
+    transform: translateY(-724px);
+}
+
+.six {
+    width: 1262px;
+    height: 150px;
+    transform: translateY(-725px);
+}
+
+.seven1 {
+    width: 80px;
+    transform: translate(100px, -1100px);
+}
+
+.seven2 {
+    width: 80px;
+    transform: translate(200px, -1100px);
+    /* transform: translateX(20px); */
+}
+
+.seven3 {
+    width: 80px;
+    transform: translate(400px, -1100px);
+}
+
+.seven4 {
+    width: 80px;
+    transform: translate(550px, -1100px);
+}
+
+.seven5 {
+    width: 80px;
+    transform: translate(500px, -1100px);
+}
+
+.eight {
+    width: 150px;
+    transform: translate(0px, -1100px);
+}
+
+.eight2 {
+    width: 150px;
+    transform: translate(0px, -1100px);
+}
+
+.car {
+    width: 200px;
+    transform: translate(0px, -1150px);
+    animation: car 5s ease-in-out infinite;
+}
+
+@keyframes car {
+    0% {
+        transform: translate(-1050px, -1150px);
+        /* transform: translateY(-1150px); */
+    }
+
+    100% {
+        transform: translate(500px, -1150px);
+    }
+}
+
+
+
+.car2 {
+    width: 200px;
+    transform: translate(-1000px, -1190px);
+    animation: car2 7s ease-in-out infinite;
+}
+
+@keyframes car2 {
+    0% {
+        transform: translate(-1250px, -1200px);
+    }
+
+    100% {
+        transform: translate(500px, -1200px);
+    }
+}
+
+.bike {
+    width: 200px;
+    transform: translate(0px, -1050px);
+    animation: bike 4s ease-in-out infinite;
+}
+
+@keyframes bike {
+    0% {
+        transform: translate(1250px, -1150px);
+    }
+
+    100% {
+        transform: translate(-1000px, -1150px);
+    }
+}
+
+.car4 {
+    width: 200px;
+    transform: translate(0px, -1050px);
+    animation: bike 5s ease-in-out infinite;
+}
+
+@keyframes car4 {
+    0% {
+        transform: translate(1250px, -1400px);
+    }
+
+    100% {
+        transform: translate(-1000px, -1400px);
+    }
+}
+
+.plane {
+    width: 500px;
+    transform: translate(0px, -1050px);
+    animation: plane 6s ease-in-out infinite;
+}
+
+@keyframes plane {
+    0% {
+        transform: translate(1450px, -1650px);
+    }
+
+    100% {
+        transform: translate(-1000px, -1650px);
+    }
+}
+
+.helicopter {
+    width: 500px;
+    transform: translate(0px, -1050px);
+    animation: helicopter 8s ease-in-out infinite;
+}
+
+@keyframes helicopter {
+    0% {
+        transform: translate(1250px, -2050px);
+    }
+
+    100% {
+        transform: translate(-1000px, -2050px);
+    }
+}
+
+.wave {
+    width: 100px;
+    transform: translate(0px, -1050px);
+    animation: wave 15s ease-in-out infinite;
+}
+@keyframes wave {
+    0% {
+        transform: translate(1250px, -1300px);
+    }
+
+    100% {
+        transform: translate(-1000px, -1300px);
+    }
+}
+
+.pass {
+    width: 100px;
+    transform: translate(0px, -1050px);
+    animation: pass 12s ease-in-out infinite;
+}
+
+@keyframes pass {
+    0% {
+        transform: translate(-1000px, -1670px);
+    }
+    100% {
+        transform: translate(1250px, -1650px);
+    }
+}
+
+.passer {
+    width: 100px;
+    transform: translate(0px, -1050px);
+    animation: passer 10s ease-in-out infinite;
+}
+
+@keyframes passer {
+    0% {
+        transform: translate(-1000px, -1670px);
+    }
+    100% {
+        transform: translate(1250px, -1670px);
+    }
+}
+
+.man {
+    width: 100px;
+    transform: translate(0px, -1050px);
+    animation: man 15s ease-in-out infinite;
+}
+@keyframes man {
+    0% {
+        transform: translate(-1000px, -1800px);
+    }
+    100% {
+        transform: translate(-1250px, -1900px);
+    }
+}
+
+
+.man1 {
+    width: 100px;
+    transform: translate(0px, -1050px);
+    animation: man 10s ease-in-out infinite;
+}
+
+@keyframes man1 {
+    0% {
+        transform: translate(-1000px, -1900px);
+    }
+    100% {
+        transform: translate(1250px, -1900px);
+    }
+}
+
+
+/* .now1 {
+    background-color: #58f758;
+    width: 1262px;
+    height: 20px;
+    transform: translateY(-1690px);
+    overflow: hidden;
+} */
